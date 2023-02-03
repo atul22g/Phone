@@ -1,0 +1,36 @@
+.app {
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.app .app-icon {
+    display: block;
+    width: 48px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: 10px;
+    background-image: url(./../../../../images/Btns/btn1.png);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.app .app-icon:hover{
+    background-image: url(./../../../../images/Btns/btn1-click.png);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    top: 6px;
+}
+
+.app .app-img-container {
+    width: 48px;
+    height: 54.85714px;
+    position: relative;
+}

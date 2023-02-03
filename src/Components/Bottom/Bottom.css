@@ -1,0 +1,9 @@
+#bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    z-index: 2;
+    background-image: url(./../../images/bg.png);
+    background-size: 100%;
+}
