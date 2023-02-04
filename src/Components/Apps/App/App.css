@@ -13,7 +13,7 @@
     margin-bottom: 5px;
     position: relative;
     margin-top: 10px;
-    background-image: url(./../../../../images/Btns/btn1.png);
+    background-image: url(./../../../images/Btns/btn1.png);
     border-top-right-radius: 5px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 4px;
@@ -22,8 +22,8 @@
     background-size: 100%;
 }
 
-.app .app-icon:hover{
-    background-image: url(./../../../../images/Btns/btn1-click.png);
+.app .app-icon:hover {
+    background-image: url(./../../../images/Btns/btn1-click.png);
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
     top: 6px;
@@ -33,4 +33,15 @@
     width: 48px;
     height: 54.85714px;
     position: relative;
+}
+
+.app-img {
+    width: 48px;
+    height: 53px;
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    /* background-image: url(../../../images/application-icons/github.svg); */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    filter: opacity(70%);
+    background-position: center center;
 }

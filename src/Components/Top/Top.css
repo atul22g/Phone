@@ -15,11 +15,12 @@
 /* Full Signal Container */
 .top-signal {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     top: 1px;
-    left: 5px;
+    right: 45px;
 }
 
 /* Signals Container */
@@ -59,14 +60,50 @@
     bottom: 3px;
 }
 
+/* Battery */
+.battery-icon {
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    background-image: url(../../images/battery.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 18px;
+}
+
+.battery-fullfill-con {
+    position: absolute;
+    top: 1px;
+    right: 4.2px;
+    width: 5px;
+    height: 11px;
+    max-height: 11px;
+}
+
+
+.battery-fullfill {
+    position: absolute;
+    width: 5px;
+    bottom: 3%;
+    background-color: var(--text-color);
+}
+.battery-percentage {
+    position: absolute;
+    font-size: 0.9em;
+    top: 3.9px;
+    right: 7px;
+}
+
 /* Signal Status */
-#top-status-connection{
-    padding-left: 3px;
+#top-status-connection {
+    position: absolute;
+    right: 17px;
     margin-bottom: 5px;
 }
 
 /* Time */
-#top-status-center{
+#top-status-center {
     position: absolute;
-    right: 10px;
+    left: 5px;
 }

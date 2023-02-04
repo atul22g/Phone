@@ -7,7 +7,7 @@
 :root{
   --bg-color: #585153;
   --screen-color:  #a39990;
-  --text-color: #e4dccf;;
+  --text-color: #e4dccf;
 }
 
 body {
@@ -38,5 +38,11 @@ body {
     width: 100vw;
     height: 100vh;
     border-radius: 0px;
+  }
+}
+
+@media screen and (max-width:250px) {
+  body {
+    display: none;
   }
 }
