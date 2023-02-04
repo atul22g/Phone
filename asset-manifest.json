@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Phone/static/css/main.c9935991.css",
-    "main.js": "/Phone/static/js/main.30508236.js",
+    "main.css": "/Phone/static/css/main.1b1a8e4b.css",
+    "main.js": "/Phone/static/js/main.3d3c9f70.js",
     "static/js/787.a36da101.chunk.js": "/Phone/static/js/787.a36da101.chunk.js",
     "static/media/btn3.png": "/Phone/static/media/btn3.f0fa714271f8a90c4620.png",
     "static/media/btn1.png": "/Phone/static/media/btn1.31076cacd764e986b50a.png",
@@ -9,13 +9,14 @@
     "static/media/btn2-click.png": "/Phone/static/media/btn2-click.353368d3879ac9eb74c2.png",
     "static/media/btn3-click.png": "/Phone/static/media/btn3-click.19379b9716e5befb418d.png",
     "static/media/btn1-click.png": "/Phone/static/media/btn1-click.05dad732908e2f5eacf5.png",
+    "static/media/github.svg": "/Phone/static/media/github.b2294bccaa20da50b7d5.svg",
     "index.html": "/Phone/index.html",
-    "main.c9935991.css.map": "/Phone/static/css/main.c9935991.css.map",
-    "main.30508236.js.map": "/Phone/static/js/main.30508236.js.map",
+    "main.1b1a8e4b.css.map": "/Phone/static/css/main.1b1a8e4b.css.map",
+    "main.3d3c9f70.js.map": "/Phone/static/js/main.3d3c9f70.js.map",
     "787.a36da101.chunk.js.map": "/Phone/static/js/787.a36da101.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9935991.css",
-    "static/js/main.30508236.js"
+    "static/css/main.1b1a8e4b.css",
+    "static/js/main.3d3c9f70.js"
   ]
 }
