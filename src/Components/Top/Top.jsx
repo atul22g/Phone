@@ -32,7 +32,6 @@ const Top = () => {
     navigator.getBattery().then(function (battery) {
         setBattery((battery.level * 100).toFixed(0) + "%")
     });
-    // let fullfillBattery = battery
 
 
 
@@ -52,7 +51,7 @@ const Top = () => {
             <figure className="battery">
                 <span className="battery-icon">
                     <span className="battery-fullfill-con">
-                        <span className="battery-fullfill" style={{ height: `${battery}` }}></span>
+                        <span className="battery-fullfill" style={{ height: `calc(${battery} - 0.1%)` }}></span>
                     </span>
                 </span>
                 <span className="battery-percentage">{battery}</span>

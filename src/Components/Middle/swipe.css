@@ -1,0 +1,20 @@
+.swiper {
+    position: absolute;
+    top: 30px;
+    width: 300px;
+    height: 470px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: var(--screen-color);
+}
+
+@media screen and (max-width: 430px) {
+    .swiper {
+        width: 100vw;
+        height: 580px;
+    }
+}

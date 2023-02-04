@@ -4,6 +4,7 @@
     margin-bottom: 10px;
     box-sizing: border-box;
     text-align: center;
+    cursor: pointer;
 }
 
 .app .app-icon {
@@ -39,7 +40,7 @@
     width: 48px;
     height: 53px;
     transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-    /* background-image: url(../../../images/application-icons/github.svg); */
+    background-image: url(../../../images/application-icons/github.svg);
     background-size: 80%;
     background-repeat: no-repeat;
     filter: opacity(70%);
