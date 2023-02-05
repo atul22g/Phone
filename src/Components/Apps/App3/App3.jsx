@@ -11,8 +11,8 @@ const App = (props) => {
                         <div className={props.img + " app-img"}></div>
                     </div>
                 </div>
-                <div className="app-name">{props.text}</div>
             </section>
+            <div className="app-name">{props.text}</div>
         </div>
     )
 }

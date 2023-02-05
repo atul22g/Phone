@@ -4,4 +4,5 @@
 
 .app2 .app-icon:active {
     background-image: url(./../../../images/Btns/btn2-click.png);
+    border-radius: 6px !important;
 }
