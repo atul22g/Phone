@@ -7,10 +7,10 @@ import './Bottom.css';
 const Bottom = () => {
     return (
         <section id='bottom'>
-            <App img="./app-icons/call.svg" />
+            <App img="#" />
             <App2 img="#" />
             <App3 img="#" />
-            <App img="./app-icons/github.svg" />
+            <App img="#" />
         </section>
     )
 }

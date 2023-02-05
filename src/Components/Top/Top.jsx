@@ -30,15 +30,26 @@ const Top = () => {
 
     // Battery
     navigator.getBattery().then(function (battery) {
-        setBattery((battery.level * 100).toFixed(0) + "%")
+        setBattery((battery.level * 100).toFixed(0))
     });
 
+    // Battery Style
+    const batteryicon = {
+        right: '35px'
+    }
+
+    const Signal = {
+        right: "49px",
+    }
+
+    const Empty = {
+    }
 
 
     return (
         <div id="top-status">
             {/* Signal */}
-            <div className='top-signal'>
+            <div className='top-signal' style={battery === '100' ? Signal : Empty}>
                 <section id="top-status-signal">
                     <span className="signal signal-1"></span>
                     <span className="signal signal-2"></span>
@@ -49,12 +60,12 @@ const Top = () => {
             </div>
             {/* Battery */}
             <figure className="battery">
-                <span className="battery-icon">
+                <span className="battery-icon" style={battery === '100'? batteryicon : Empty}>
                     <span className="battery-fullfill-con">
-                        <span className="battery-fullfill" style={{ height: `calc(${battery} - 0.1%)` }}></span>
+                        <span className="battery-fullfill" style={{ height: `calc(${battery}% - 0.1%)` }}></span>
                     </span>
                 </span>
-                <span className="battery-percentage">{battery}</span>
+                <span className="battery-percentage">{battery + '%'}</span>
             </figure>
             {/* Time */}
             <div id="top-status-center" className="top-status-content">

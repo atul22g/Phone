@@ -20,7 +20,7 @@
     justify-content: center;
     position: absolute;
     top: 1px;
-    right: 50px;
+    right: 45px;
 }
 
 /* Signals Container */
@@ -63,7 +63,7 @@
 /* Battery */
 .battery-icon {
     position: absolute;
-    right: 35px;
+    right: 31px;
     top: 3px;
     background-image: url(../../images/battery.png);
     background-size: 100%;

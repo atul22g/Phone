@@ -23,7 +23,7 @@
     background-size: 100%;
 }
 
-.app .app-icon:hover {
+.app .app-icon:active {
     background-image: url(./../../../images/Btns/btn1-click.png);
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
@@ -40,9 +40,13 @@
     width: 48px;
     height: 53px;
     transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-    background-image: url(../../../images/application-icons/github.svg);
     background-size: 80%;
     background-repeat: no-repeat;
-    filter: opacity(70%);
+    filter: opacity(60%);
     background-position: center center;
+}
+
+.app-name{
+    width: 100%;
+    padding-top: 5px;
 }

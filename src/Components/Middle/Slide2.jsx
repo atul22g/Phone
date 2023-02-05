@@ -11,11 +11,15 @@ const Slide2 = () => {
                 {/* one */}
                 <section className='slider-container'>
                     <section className='slider-inside-container'>
-                        <span className='slider-top-text'>Social Network</span>
+                        <div className='slider-top-text'>Social Network</div>
                         <section className='slider-icons'>
                             <App3 img="#" text="SN" />
                             <App img="#" text="SN" />
                             <App2 img="#" text="SN" />
+                            <App3 img="#" text="SN" />
+                            <App img="#" text="SN" />
+                            <App2 img="#" text="SN" />
+                            <App3 img="#" text="SN" />
                             <App img="#" text="SN" />
                         </section>
                     </section>

@@ -11,9 +11,9 @@ const Slide1 = () => {
             {/* one */}
                 <section className='slider-container'>
                     <section className='slider-inside-container'>
-                        <span className='slider-top-text'>Apps</span>
+                        <div className='slider-top-text'>Apps</div>
                         <section className='slider-icons'>
-                            <App2 img="#" text="app" />
+                            <App2 img="calc-icon" text="Calculator" />
                             <App img="#" text="app" />
                             <App3 img="#" text="app" />
                             <App img="#" text="app" />
@@ -24,7 +24,7 @@ const Slide1 = () => {
             {/* two */}
                 <section className='slider-container'>
                     <section className='slider-inside-container'>
-                        <span className='slider-top-text'>Website</span>
+                        <div className='slider-top-text'>Website</div>
                         <section className='slider-icons'>
                             <App img="#" text="website" />
                             <App3 img="#" text="website" />
@@ -37,7 +37,7 @@ const Slide1 = () => {
             {/* Three */}
                 <section className='slider-container'>
                     <section className='slider-inside-container'>
-                        <span className='slider-top-text'>Projects</span>
+                        <div className='slider-top-text'>Projects</div>
                         <section className='slider-icons'>
                             <App2 img="#" text="Projects" />
                             <App3 img="#" text="Projects" />
